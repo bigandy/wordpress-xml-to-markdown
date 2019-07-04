@@ -1,0 +1,8 @@
+---
+title: 'Post London 2012 Blues'
+date: Mon, 13 Aug 2012 14:38:08 +0000
+draft: false
+tags: [life]
+---
+
+17 days of excellent sport and fantastic atmosphere have rocked this country following the London 2012 Olympic Games. Now, sadly, they have finished and life is somewhat flat as a result of this. No ferocious patriotism, no fantastic atmosphere and more importantly no sport to follow. How will summer ever be the same after this?

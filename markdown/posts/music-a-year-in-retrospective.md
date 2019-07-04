@@ -1,0 +1,8 @@
+---
+title: 'Music - a year in retrospective'
+date: Sat, 27 Oct 2012 16:43:05 +0000
+draft: false
+tags: [music, Aside]
+---
+
+I've been a member of the Rough Trade Album Club for the last year and not really listened to all the CDs so this afternoon while trying out my new desk chair and tidying the office I'm listening to **all** of them!
