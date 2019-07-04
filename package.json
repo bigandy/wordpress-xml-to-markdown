@@ -4,7 +4,8 @@
   "description": "Blogger backup to markdown",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "create:posts": "node index.js big-andy.co.uk-WordPress-posts.xml posts",
+    "create:pages": "node index.js big-andy.co.uk-WordPress-pages.xml pages"
   },
   "author": "palaniraja",
   "license": "ISC",

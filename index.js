@@ -1,35 +1,14 @@
 "use strict";
 
-/***
-    Usage: blog2md b|w <BLOGGER/WordPress BACKUP XML> <OUTPUT DIR>
-
-*/
-
 const fs = require("fs");
-const os = require("os");
-const path = require("path");
 const xml2js = require("xml2js");
 const TurndownService = require("turndown");
 var moment = require("moment");
 
 var tds = new TurndownService();
 
-// console.log(`No. of arguments passed: ${process.argv.length}`);
-
-if (process.argv.length < 5) {
-  // ${process.argv[1]}
-  console.log(`Usage: blog2md [b|w] <BACKUP XML> <OUTPUT DIR> m|s`);
-  console.log(`\t b for parsing Blogger(Blogspot) backup`);
-  console.log(`\t w for parsing WordPress backup`);
-  return 1;
-}
-
-var option = process.argv[2];
-var inputFile = process.argv[3];
-
-var outputDir = process.argv[4];
-
-var mergeComments = process.argv[5] == "m" ? "m" : "s";
+var inputFile = process.argv[2];
+var outputDir = process.argv[3];
 
 if (fs.existsSync(outputDir)) {
   console.log(
@@ -39,14 +18,7 @@ if (fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir);
 }
 
-if (option.toLowerCase() == "b") {
-  bloggerImport(inputFile, outputDir);
-} else if (option.toLowerCase() == "w") {
-  wordpressImport(inputFile, outputDir);
-} else {
-  console.log("Only b (Blogger) and w (WordPress) are valid options");
-  return;
-}
+wordpressImport(inputFile, outputDir);
 
 function wordpressImport(backupXmlFile, outputDir) {
   var parser = new xml2js.Parser();
@@ -66,7 +38,7 @@ function wordpressImport(backupXmlFile, outputDir) {
       // try {
       posts = result.rss.channel[0].item;
 
-      console.log(`Total Post count: ${posts.length}`);
+      // posts.length = 1; // Get only one post -- useful for testing!
 
       posts = posts.filter(function(post) {
         var status = "";
@@ -77,7 +49,6 @@ function wordpressImport(backupXmlFile, outputDir) {
         return status != "private" && status != "inherit";
       });
 
-      // console.log(posts)
       console.log(`Post count: ${posts.length}`);
 
       var title = "";
@@ -90,21 +61,16 @@ function wordpressImport(backupXmlFile, outputDir) {
       var fileContent = "";
       var fileHeader = "";
       var postMaps = {};
+      var description = "";
 
-      console.log(posts[posts.length - 1]);
       posts.forEach(function(post) {
-        // console.log(post);
         var postMap = {};
 
         title = post.title[0];
 
-        // console.log(title);
-
-        // if (title && title.indexOf("'")!=-1){
         title = title.replace(/'/g, "''");
-        // }
 
-        published = post.pubDate;
+        published = post["wp:post_date_gmt"];
         comments = post["wp:comment"];
         fname = post["wp:post_name"];
         markdown = "";
@@ -127,19 +93,25 @@ function wordpressImport(backupXmlFile, outputDir) {
 
         fname = outputDir + "/" + fname + ".md";
         pmap.postName = fname;
-        console.log(`fname: '${fname}'`);
 
         if (post["content:encoded"]) {
           // console.log('content available');
           content = "<div>" + post["content:encoded"] + "</div>"; //to resolve error if plain text returned
           markdown = tds.turndown(content);
-          // console.log(markdown);
 
-          fileHeader = `---\ntitle: '${title}'\ndate: ${published}\ndraft: false\n${tagString}---\n`;
+          description = tds.turndown(
+            "<div>" + post["excerpt:encoded"] + "</div>"
+          );
+
+          var tagString = "";
+
+          if (tags.length) {
+            tagString = `tags: [${tags.join(", ")}]\n`;
+          }
+
+          fileHeader = `---\ntitle: '${title}'\ndate: ${published}\ndraft: false\ndescription: "${description}"\n${tagString}---\n`;
           fileContent = `${fileHeader}\n${markdown}`;
           pmap.header = `${fileHeader}\n`;
-
-          // fileContent = `---\ntitle: '${title}'\ndate: ${published}\ndraft: false\n${tagString}---\n\n${markdown}`;
 
           writeToFile(fname, fileContent);
         }
