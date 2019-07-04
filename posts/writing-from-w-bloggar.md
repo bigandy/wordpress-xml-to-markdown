@@ -3,7 +3,7 @@ title: 'Writing from w.bloggar'
 date: 2010-08-12 21:44:49
 draft: false
 description: ""
-tags: [life]
+tags: ['life']
 ---
 
 While I listen to the latest podcast from [The Big Web Show](http://5by5.tv/bigwebshow/16 "big web show #16") (a weekly show about different topics related to the web, hosted by [Zeldman](http://www.zeldman.com/ "Jeffrey Zeldman's Site") and [Dan Benjamin](http://hivelogic.com/ "Dan Benjamin's Hivelogic Website")) I try out a new tool for blogging.

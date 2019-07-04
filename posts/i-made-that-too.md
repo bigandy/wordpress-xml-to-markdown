@@ -3,7 +3,7 @@ title: 'i Made that too!'
 date: 2013-08-08 12:27:00
 draft: false
 description: ""
-tags: [wordpress]
+tags: ['wordpress']
 ---
 
 I've been at Electric Studio for 7 months and following on from my [first site list](http://big-andy.co.uk/blog/i-made-that/ "i Made That!") I've a few more sites that I've developed:

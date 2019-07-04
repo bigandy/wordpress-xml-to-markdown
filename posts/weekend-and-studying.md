@@ -3,7 +3,7 @@ title: 'Weekend and Studying'
 date: 2010-05-16 15:02:02
 draft: false
 description: ""
-tags: [CIW, ciw site designer, coding, Foals, html5, HTML5, JS, life, oxford, php, php, reading geek night, web-design]
+tags: ['CIW','ciw site designer','coding','Foals','html5','HTML5','JS','life','oxford','php','php','reading geek night','web-design']
 ---
 
 Sunday afternoon and the birds are cheeping, otherwise it's quiet and I am taking a break from studying. This week has been a busy one with my first ever [Reading Geek Night](http://readinggeeknight.com/ "rdggeek") with [Mike Robinson](http://akamike.net "HTML5 doctor akamike") talking about "HTML5 Today", [Mark Adams](http://twitter.com/cluetrainee) "Geeks are Gods", [Chris Alexander](http://www.chris-alexander.co.uk/ "Chris Alexander") on "Darks arts of SEO" and [Workhouse Coffee's](http://www.workhousecoffee.co.uk/ "workhouse coffee") "Coffee Geeks". Wednesday we went to see Foals play at the Academy in Oxford, preceded by an excellent meal in Coco on Cowley Road. Thursday night. Otherwise this week I have been studying and coding.

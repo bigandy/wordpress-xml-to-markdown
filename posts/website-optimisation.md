@@ -3,7 +3,7 @@ title: 'Website Optimisation'
 date: 2011-05-20 18:05:23
 draft: false
 description: ""
-tags: [wordpress]
+tags: ['wordpress']
 ---
 
 I love speed, everything to do to get something done faster is must for me. This week I finally have fiber-optic internet and now I am looking to extend my passion for speed through in relation to THIS website. Why am I going to do this? I hate waiting for a website to load, you hate it too, right? There's far too much you'd prefer to be doing than waiting for a download to happen or a web page to open. How am I going to do this?

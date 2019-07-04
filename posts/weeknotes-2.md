@@ -3,7 +3,7 @@ title: 'Weeknotes #2'
 date: 2018-01-28 13:59:15
 draft: false
 description: "I ran a couple of times, did some DIY and started juggling again."
-tags: [life, weeknotes]
+tags: ['life','weeknotes']
 ---
 
 This week has been a mixed bag, I ran a couple of times, did some DIY and started juggling again. Work-wise it was mostly about bashing my head against many difficult challenges and making progress with them.

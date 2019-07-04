@@ -3,7 +3,7 @@ title: 'Goals for 2014'
 date: 2014-01-14 20:57:20
 draft: false
 description: ""
-tags: [life]
+tags: ['life']
 ---
 
 My key goals for the current year are:

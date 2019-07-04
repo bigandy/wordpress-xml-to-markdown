@@ -3,7 +3,7 @@ title: 'Automation (my) Solution'
 date: 2013-12-04 15:33:46
 draft: false
 description: ""
-tags: [developing, hide]
+tags: ['developing','hide']
 ---
 
 #!/bin/bash

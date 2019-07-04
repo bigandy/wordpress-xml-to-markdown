@@ -3,7 +3,7 @@ title: 'Plugin Error Fixed!!!'
 date: 2011-03-31 22:11:45
 draft: false
 description: ""
-tags: [wordpress]
+tags: ['wordpress']
 ---
 
 I have found out what I was doing wrong to cause my wordpress [plugin to throw up an error](http://blog.big-andy.co.uk/wordpress/plugin-error/ "Plugin Error") and it was this: On activation you put a piece of code that says

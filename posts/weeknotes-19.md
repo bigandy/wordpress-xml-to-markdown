@@ -3,7 +3,7 @@ title: 'Weeknotes #19'
 date: 2019-04-05 07:26:01
 draft: false
 description: ""
-tags: [life, weeknotes]
+tags: ['life','weeknotes']
 ---
 
 We have finally moved house!

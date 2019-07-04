@@ -3,7 +3,7 @@ title: 'Photos '
 date: 2009-07-13 19:42:32
 draft: false
 description: ""
-tags: [life]
+tags: ['life']
 ---
 
 Sorting out photos on the computer. Have not put any photos online in a long time but looking into sorting that out. Also looking into batch processing, web optimising and such like.

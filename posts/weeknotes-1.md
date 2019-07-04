@@ -3,7 +3,7 @@ title: 'Weeknotes #1'
 date: 2018-01-21 08:48:31
 draft: false
 description: ""
-tags: [life, weeknotes]
+tags: ['life','weeknotes']
 ---
 
 Inspired by Rachel Andrew's [weeknotes](https://rachelandrew.co.uk/archives/2018/01/12/weeknotes-1/) I am going to write some of the things that I have been doing every week. Here is the first one:

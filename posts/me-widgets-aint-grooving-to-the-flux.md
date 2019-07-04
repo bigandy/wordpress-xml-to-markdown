@@ -3,7 +3,7 @@ title: 'me widgets ain''t grooving to the Flux'
 date: 2007-02-11 08:00:30
 draft: false
 description: ""
-tags: [life]
+tags: ['life']
 ---
 
 Here is a quote:

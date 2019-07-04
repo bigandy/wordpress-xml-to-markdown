@@ -3,7 +3,7 @@ title: 'Using forecast.io with WordPress'
 date: 2015-10-22 15:36:53
 draft: false
 description: "How to use the WordPress Transients API and wp\_remote\_get() to grab the latest weather from the forecast.io API."
-tags: [developing]
+tags: ['developing']
 ---
 
 For ages this sites has had the tagline "I'm a front-end and WordPress developer based in **sunny** Oxfordshire. hello!" and I wanted to be able to update the **sunny** with the days weather. How British I know! I am using [wp\_remote\_get()](https://codex.wordpress.org/Function_Reference/wp_remote_get) to grab a [JSON object from the forecast.io API](https://developer.forecast.io/docs/v2), then selecting the part that I want - the current weather - and storing this in my database using [WordPress Transients API](https://codex.wordpress.org/Transients_API) to cache the result for 3 hours so that I don't make multiple API calls (and so I don't go over the 1000 API calls per day). I have wrapped the code in a shortcode so that I can call it wherever I like.

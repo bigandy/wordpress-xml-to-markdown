@@ -3,7 +3,7 @@ title: 'Picture Featured Image Post'
 date: 2014-06-11 10:34:54
 draft: false
 description: "The new <picture> element is incredible if you want to serve different images based on the width of the browser that the user is viewing your site on. While the browsers are currently working on implementing the spec, you can implement it with a polyfill called picturefill.js. I've applied this to my WordPress site and will detail how I've done it, starting first with featured images."
-tags: [picture]
+tags: ['picture']
 ---
 
 The new <picture> element is incredible if you want to serve different images based on the width of the browser that the user is viewing your site on. The syntax is

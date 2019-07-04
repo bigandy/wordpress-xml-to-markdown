@@ -3,7 +3,7 @@ title: 'Thoughts on Inbox'
 date: 2014-12-04 11:39:22
 draft: false
 description: "I've been a keen user of google inbox for over a month and here are my initial thoughts."
-tags: [technology]
+tags: ['technology']
 ---
 
 I've been a keen user of [google inbox](https://inbox.google.com) for over a month and here are my initial thoughts. I love it! Plus points:

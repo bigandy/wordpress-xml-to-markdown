@@ -3,7 +3,7 @@ title: 'Plugin Error'
 date: 2011-03-31 21:44:15
 draft: false
 description: ""
-tags: [wordpress]
+tags: ['wordpress']
 ---
 
 Trying to work on my plugin this evening has been frustrating because I keep on getting an error that says :

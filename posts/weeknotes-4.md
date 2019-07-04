@@ -3,7 +3,7 @@ title: 'Weeknotes #4'
 date: 2018-02-25 11:39:25
 draft: false
 description: "I launched a PWA, Arthur turned three and we went to the farm."
-tags: [life, weeknotes]
+tags: ['life','weeknotes']
 ---
 
 Arthur turned three, has definitely hit the threenager step and had an awesome party with bouncy castle and face painting.

@@ -3,7 +3,7 @@ title: 'Weeknotes #10'
 date: 2018-12-06 14:26:50
 draft: false
 description: ""
-tags: [life, weeknotes]
+tags: ['life','weeknotes']
 ---
 
 *   Gym twice a week - Weds after work, Fri before work - at the moment I prefer to go before work but it does mean getting up earlier. 

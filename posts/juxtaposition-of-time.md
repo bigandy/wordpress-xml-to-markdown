@@ -3,7 +3,7 @@ title: 'juxtaposition of time'
 date: 2009-11-16 21:46:12
 draft: false
 description: ""
-tags: [life]
+tags: ['life']
 ---
 
 listening to Gilles Peterson using the cans that Marion bought me for my birthday is one of life's greatest pleasures. That and sorting things out. I took Marion to New York City at the end of Oct for her birthday and it's been a harsh week recovering from the tiredness and jetlag that hit us as we came back to this side of the Ocean. I took hundreds of photos on my newly bought super-wide angle zoom lens (Nikon AF-S Nikkor 10-24mm f/3.5-4.5G ED DX to give it its fullest of full titles!) and now am in the process of sifting through them.

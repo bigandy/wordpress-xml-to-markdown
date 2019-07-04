@@ -3,7 +3,7 @@ title: 'Weeknotes #6'
 date: 2018-10-12 12:08:55
 draft: false
 description: "I've done a lot of learning this week and also I went for a big family walk last Sunday."
-tags: [life, weeknotes]
+tags: ['life','weeknotes']
 ---
 
 This week has mostly been about:

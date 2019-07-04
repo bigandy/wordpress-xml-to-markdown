@@ -3,7 +3,7 @@ title: 'Putting Photos online with WordPress'
 date: 2012-09-09 14:26:55
 draft: false
 description: ""
-tags: [media, photography, tutorial, tutorial, upload, wordpress]
+tags: ['media','photography','tutorial','tutorial','upload','wordpress']
 ---
 
 1.  Take photos off of camera

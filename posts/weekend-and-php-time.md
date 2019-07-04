@@ -3,7 +3,7 @@ title: 'Weekend and PHP time'
 date: 2010-05-07 22:16:08
 draft: false
 description: ""
-tags: [CIW, php, web-design]
+tags: ['CIW','php','web-design']
 ---
 
 Good Evening Folks! I have been working on some PHP recently. I have decided to change from .html to .php on [big-andy.co.uk](http://www.big-andy.co.uk/ "big andy website") so that I could use a consistant navigation bar and any changes that I made would be only to one (navigation.php) file rather than 10+ files (with .html). I did have some difficulty, however, with my current testing situation. I am using XAMPP on my PC to test what I make before I publish it online. The root of my XAMPP site is http://localhost/ and the root of my website is http://big-andy.co.uk so I wanted to do some PHP to show the root and based on this to serve a different navigation (xampp-navigation.php or navigation.php) depending whether the page was on the XAMPP server or on the web-server. I did it like this:

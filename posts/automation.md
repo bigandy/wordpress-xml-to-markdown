@@ -3,7 +3,7 @@ title: 'Automation'
 date: 2013-11-20 12:20:08
 draft: false
 description: ""
-tags: [developing]
+tags: ['developing']
 ---
 
 Recently I have been going through the number of processes that I need to do to set up a new WordPress site locally before development can commence. Below I will outline these and then in a follow up post I will describe how I have gone about automating them. Steps to automate:

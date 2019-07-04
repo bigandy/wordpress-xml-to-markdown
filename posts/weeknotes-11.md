@@ -3,7 +3,7 @@ title: 'Weeknotes #11'
 date: 2018-12-06 14:41:27
 draft: false
 description: ""
-tags: [life, weeknotes]
+tags: ['life','weeknotes']
 ---
 
 *   Bro and his g/f stayed over with us last weekend

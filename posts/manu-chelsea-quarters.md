@@ -3,7 +3,7 @@ title: 'ManU Chelsea Quarters'
 date: 2011-03-18 12:08:54
 draft: false
 description: ""
-tags: [life]
+tags: ['life']
 ---
 
 The draw for the quarter-finals of the Champions League was made earlier this morning and ManU were drawn against Chelsea. Here's the full draw :

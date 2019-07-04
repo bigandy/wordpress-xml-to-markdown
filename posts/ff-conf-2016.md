@@ -3,7 +3,7 @@ title: 'FF Conf 2016'
 date: 2016-11-24 10:04:23
 draft: false
 description: "I have wanted to attend FFConf for as many years as it has been running and this year I was lucky to attend. Here are my notes from the talks which stood out to me..."
-tags: [dev]
+tags: ['dev']
 ---
 
 [FFConf](https://2016.ffconf.org/) is a front-end conference held in Brighton every year and here are my notes from the talks that stood out:
